@@ -1,0 +1,114 @@
+.contacttemp{
+    margin-bottom: 100px ;
+}
+
+.ctc1{
+    background-color:rgba(127, 255, 212, 0.204);
+    height: 500px;
+}
+.ctc2{
+    height: 500px;
+    background-color: blueviolet;
+    background-image: url(/image/contact/c1.jpg);
+    background-size: cover;
+}
+/* .contacttemp .ctc1{
+  text-align: center;
+} */
+.contacttemp .ctc1 div{
+ padding: 150px 60px;
+}
+.contacttemp .ctc1 div h1{
+    font-size: 60px;
+    font-weight: 900;
+    line-height:60px;
+}
+
+/*  ==============Let's begin */
+
+.fbform{
+    margin-top: 20px;
+    width: 500px;
+    /* margin-left: 60px; */
+}
+.letsbegin h1{
+    /* margin-left: 60px; */
+    font-weight: 900;
+    font-size:45px;
+}
+.send-bt{
+    border: none;
+    padding: 20px;
+    width: 200px;
+    border-radius: 35px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+
+}
+.send-bt:hover{
+    background-color: orangered;
+}
+.feedback{
+    margin-bottom: 100px;
+}
+
+
+/* ============= */
+
+.contact-c   .cccontainer{
+    margin-bottom: 70px;
+    margin-left: 40px;
+}
+
+.contact-c   .cccontainer div div{
+    
+    padding: 20px;
+}
+.contact-c   .cccontainer div .nbusiness{
+    border: 1px solid #45454566;
+    border-top: 0;
+    border-left: 0;
+}
+.contact-c   .cccontainer div .osocials{
+    border: 1px solid #45454566;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 0;
+}
+.contact-c   .cccontainer div .mstudio{
+    border: 1px solid #45454566;
+   border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+.contact-c   .cccontainer div div h5{
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.nbusiness p a,.mstudio p a{
+    color: #877979;
+    font-size: 12px;
+    font-weight: 700;
+}
+.nbusiness p a:hover,.mstudio p a:hover{
+  
+    color: orangered;
+}
+.nbusiness p a:hover::after,.mstudio p a:hover::after{
+    content: " ->";
+    color: orangered;
+}
+.ooffice p{
+    color: #454545e2;
+    font-size: 20px;
+}
+.osocials a{
+    color:  #454545e2;
+    margin-right: 14px;
+    font-size: 20px;
+}
+.osocials a:hover{
+    color: orangered;
+}

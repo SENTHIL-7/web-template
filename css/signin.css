@@ -1,0 +1,80 @@
+/* =============================== form  =========================*/
+
+
+.form-container form{
+       position: relative;
+       top: 100px;
+       left: 50%;
+       transform: translateX(-50%);
+       width: 500px;
+       /* margin-bottom: 250px */
+       height: 100vh;
+}
+
+
+
+.form-container form h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.form-container form #Email{
+    
+    width: 500px;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    
+}
+.form-container form #Pwd{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+.form-container form #Submit{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+.form-container form #Submit:hover{
+    background-color: orangered;
+}
+
+
+.form-container form #Pwd:focus{
+    outline:3px solid rgba(109, 109, 202, 0.603);
+}
+
+
+
+.form-container form #Email:focus{
+    outline:3px solid rgba(109, 109, 202, 0.603);
+}
+.form-container form #Submit:active{
+    background-color: orangered;
+}
+.form-container form p{
+    color: #8d7575;
+    font-size: 23px;
+}
+.form-container form p a{
+    color: #8d7575;
+    font-size: 23px;
+}
+.form-container form p a:hover{
+    color: orangered;
+}
+.form-container form p a:active{
+    color: orangered;
+}

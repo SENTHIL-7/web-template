@@ -1,0 +1,462 @@
+/* ================== */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+::selection {
+    color: #fff;
+    background:orangered;
+  }
+
+
+/* =================== header */
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bolder;
+   
+}
+.navbar-brand span{
+   color: orangered;
+  
+} 
+.navbar-brand:hover{
+    color: orangered;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: 200%;
+}
+
+.person-icon{
+    color: black;
+    padding: 5px;
+    margin-right: 20px;
+}
+.person-icon:hover{
+    color: orangered;
+}
+header .navbar #navbarNavDropdown ul li a {
+    padding: 0;
+    margin-right: 40px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #978f8fde;
+}
+header .navbar #navbarNavDropdown ul li .active{
+    color: orangered;
+    font-weight: 500;
+    position: relative;
+}
+header .navbar #navbarNavDropdown ul li a:hover{
+    color: orangered;
+   
+}
+header .navbar #navbarNavDropdown ul li .active::after{
+    content: "";
+    
+    background-color:rgb(216, 197, 191);
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+
+}
+header .navbar #navbarNavDropdown ul li a{
+    position: relative;
+}
+header .navbar #navbarNavDropdown ul li a:hover::after{
+    content: "";
+    
+    background-color:rgb(216, 197, 191);
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+
+}
+
+
+
+/* ============================ carousel =================== */
+
+.carousel-item{
+    width: 100%;
+    height: 550px;
+    background-color: gray;
+    position: relative;
+}
+.carousel-item .container{
+    position: absolute;
+    left: 100px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.carousel-item .container h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 1000;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.carousel-item .container p{
+    color: rgb(209, 190, 190);
+    font-size: 22px;
+    
+}
+
+.carousel-item .container a{
+    margin-top: 40px;
+    border: none;
+    border-radius: 25px;
+    /* height: 40px; */
+    padding:15px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#myCarousalSlide .carousel-item a:hover{
+    background-color: orangered;
+}
+
+
+/* =============== carousal nav ======================== */
+
+#myCarousalSlide{
+    position: relative;
+}
+
+.carousel-indicators  [data-bs-target] {
+
+width: 30px;
+height: 30px;
+border-radius: 100%;
+
+/* border: 5px solid white; */
+
+}
+.carousel-indicators{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position:absolute ;
+    bottom: 50%;
+    right: -100px;
+    transform: translateY(50%);
+    
+}
+
+
+/* ==================== Get started with Little Fashion =================== */
+
+
+
+.getlittlefashion{
+    font-size: 38px;
+    font-weight: 900;
+    text-align:center ;
+    margin: 70px 0 50px 0;
+    /* line-height: 45px; */
+    letter-spacing: 3px;
+}
+.getlittlefashion span{
+    color: orangered;
+}
+span{
+    color: orangered;
+}
+a{
+    text-decoration: none;
+}
+.getlittlefashion-container .active{
+    color: orangered;
+}
+.getlittlefashion-container ul li{
+    list-style-type: none;
+}
+.getlittlefashion-container ul li a {
+    color: rgb(158, 138, 138);
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+.getlittlefashion-container ul li .active::before {
+    content: "";
+    background-color: orangered;
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    left: -10px;
+}
+.getlittlefashion-container ul li a::before{
+    content: "";
+    background-color: rgb(160, 172, 162);
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    left: -10px;
+}
+.getlittlefashion-container ul li:nth-child(1){
+  margin-top: 100px; 
+}
+
+.getlittlefashion-container ul li{
+    margin: 0;
+}
+.getlittlefashion-container ul li a:hover{
+    color: orangered;
+}
+.getlittlefashion-container ul li a:hover::before {
+    /* content: ""; */
+    background-color: orangered;
+    /* height: 100%;
+    width: 1px;
+    position: absolute;
+    left: -10px; */
+}
+.getlittlefashion-container .get3 p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #777777;
+}
+.getlittlefashion-container .get3 a{
+    margin-top: 20px;
+    font-size: 13px;
+    color: #443838;
+    font-weight: 700;
+}
+.getlittlefashion-container .get3 a svg{
+    opacity: 0%;
+}
+.getlittlefashion-container .get3 a:hover svg{
+   color: orangered;
+   opacity: 100%;
+}
+.getlittlefashion-container .get3 a:hover{
+    color: orangered;
+    
+}
+
+/* ========================= retail shop owner ========*/
+
+
+.retailShop{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.retailShop .row div{
+    height: 400px;
+}
+.retailimg{
+    background-image: url(/image/retailshoponwers.jpg);
+    background-size: cover;
+}
+.retailShop .c2{
+    background-color: rgba(202, 228, 228, 0.685);
+
+}
+.retailShop .c2 div{
+    margin: 100px 50px;
+}
+.retailShop .c2 div h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.retailShop .c2 div p{
+    font-size: 25px;
+    color: #c0a8a8;
+    font-weight: 100;
+}
+.retailShop .c2 div a{
+    color: #443838;
+    font-weight: 500;
+}
+.retailShop .c2 div a:hover{
+    color: orangered;
+}
+/* .retailShop .c2 div a:hover::after{
+    content: " ->";
+    color: orangered;
+} */
+.retailShop .c2 div a svg{
+    opacity: 0;
+}
+.retailShop .c2 div a:hover svg{
+      opacity: 100%;
+      color: orangered;
+}
+
+/* =================  FeaturedProducts =============*/
+.featuredproducts{
+    margin-bottom: 100px;
+}
+
+.featuredproducts h1{
+   text-align: center;
+   margin-bottom: 50PX;
+   font-weight: 900;
+   font-size: 43px;
+}
+.featuredproducts .viewall{
+    text-align: center;
+    margin-top: 20px;
+  
+    
+}
+.featuredproducts .viewall a{
+    color: #9b8e8e;
+    font-size: 14px;
+    font-weight: 500;
+   
+    position: relative;
+}
+.featuredproducts .viewall a:hover{
+    color: orangered;
+}
+.featuredproducts .viewall a::after{
+    content: "";
+    
+    background-color:rgb(216, 197, 191);
+    width: 99%;
+    height: 1px;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+}
+
+.FeaturedProductsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+/* .FeaturedProductsContainer .fpBox1,.FeaturedProductsContainer .fpBox2,.FeaturedProductsContainer .fpBox3{
+    width: 350px;
+    height: 440px;
+    transition:box-shadow 1s;
+   
+   
+} */
+.FeaturedProductsContainer .fpBox{
+    width: 350px;
+    height: 440px;
+    transition:box-shadow 1s;
+    position: relative;
+   
+}
+
+/*   ============== box shadow effect ==== */
+.FeaturedProductsContainer .fpBox1:hover,.FeaturedProductsContainer .fpBox2:hover,.FeaturedProductsContainer .fpBox3:hover{
+    box-shadow: 0px 15px  30px #cec0c0;
+}
+.FeaturedProductsContainer .fpBox1{
+   
+    background: url(/image/p1.jpeg) ;
+    height: 350px;
+    background-size: cover;
+}
+.FeaturedProductsContainer .fpBox .fpBox1Price{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.FeaturedProductsContainer .fpBox .fpBox1Price h3:hover{
+     color: orangered;
+}
+.FeaturedProductsContainer .fpBox .fpBox1Price p{
+    color: #877070;
+}
+.FeaturedProductsContainer  .fpboxc2{
+    margin: 0 30px 0 30px;
+}
+.FeaturedProductsContainer .fpBox2{
+   
+    background: url(/image/p2.jpeg) ;
+    background-size: cover;
+    height: 350px;
+}
+.FeaturedProductsContainer .fpBox2 .fpBox1Price{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.FeaturedProductsContainer .fpBox3{
+   
+    background: url(/image/p3.jpeg) ;
+    background-size: cover;
+    height: 350px;
+}
+
+.FeaturedProductsContainer .fpBox1 span,.FeaturedProductsContainer .fpBox2 span{
+    padding: 2px 5px;
+    background-color: white;
+    color: #8e7f7f;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.FeaturedProductsContainer .fpBox1 i,.FeaturedProductsContainer .fpBox2 i,.FeaturedProductsContainer .fpBox3 i{
+    padding: 2px 5px;
+    color: white;
+    
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.FeaturedProductsContainer  i:hover{
+    color: orangered;
+}
+
+
+
+
+
+
+/* ================================ footer ==== */
+footer{
+    background-color: black;
+    width: 100%;
+    
+    padding: 60px 10px 0 ;
+}
+
+
+footer .container h1 span{
+    color:  #c3c3c3bc;
+}
+footer .container h1 span:hover{
+    color: orangered;
+    cursor: pointer;
+}
+footer .container h1,footer .container h2{
+    color: white;
+    margin-bottom: 30px;
+    
+}
+
+footer .container .lf,footer .container .sitemap,footer .container .social {
+    color: #c3c3c3bc;
+    /* font-weight: 500; */
+    font-size: 15px;
+    padding: 20px;
+}
+
+footer .container .social a{
+    color: #c3c3c3bc;
+    padding: 5px;
+
+    font-weight: 500;
+    font-size: 17px;
+}
+footer .container .social a:hover,.sitemap td:hover{
+    color: white;
+}

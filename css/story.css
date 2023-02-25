@@ -1,0 +1,11 @@
+.meetourteam img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+/* .cn1-t{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+} */
