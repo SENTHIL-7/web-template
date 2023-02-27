@@ -9,7 +9,7 @@
 .ctc2{
     height: 500px;
     background-color: blueviolet;
-    background-image: url(/image/contact/c1.jpg);
+    background-image: url(image/contact/c1.jpg);
     background-size: cover;
 }
 /* .contacttemp .ctc1{
