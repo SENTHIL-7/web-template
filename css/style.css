@@ -348,9 +348,9 @@ a{
 }
 .FeaturedProductsContainer .fpBox1{
    
-    background: url(image/p1.jpeg) ;
+    /* background: url(image/p1.jpeg) ; */
     height: 350px;
-    background-size: cover;
+    /* background-size: cover; */
 }
 .FeaturedProductsContainer .fpBox .fpBox1Price{
     box-sizing: border-box;
@@ -369,8 +369,8 @@ a{
 }
 .FeaturedProductsContainer .fpBox2{
    
-    background: url(image/p2.jpeg) ;
-    background-size: cover;
+    /* background: url(image/p2.jpeg) ;
+    background-size: cover; */
     height: 350px;
 }
 .FeaturedProductsContainer .fpBox2 .fpBox1Price{
@@ -381,8 +381,8 @@ a{
 }
 .FeaturedProductsContainer .fpBox3{
    
-    background: url(image/p3.jpeg) ;
-    background-size: cover;
+    /* background: url(image/p3.jpeg) ;
+    background-size: cover; */
     height: 350px;
 }
 
